@@ -1,3 +1,5 @@
+
+
 .custom-button {
     position: relative;
     display: flex;
@@ -19,15 +21,15 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(1.5708rad, rgb(117, 62, 239) 25%, rgb(185, 8, 246) 100%);
+    background: linear-gradient(1.5708rad, rgb(0, 128, 128) 25%, rgb(255, 165, 0) 100%);
     border-radius: inherit;
     z-index: 1;
     transition: opacity 0.3s ease-in-out;
 }
 
 .custom-button:hover {
-    background-color: #111;
-    outline: solid 1px rgb(55, 137, 219);
+    background-color: #282828;
+    outline: solid 1px rgb(0, 255, 255);
     transform: scale(1.02);
 }
 
